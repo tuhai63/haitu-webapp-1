@@ -16,6 +16,7 @@ public class MainTest {
 	    String password = "Health123";
 
 	    System.out.println("Connecting to server...");
+	    System.out.println("Voila -- Connecting to server...");
 
 	    try (Connection connection = DriverManager.getConnection(url, username, password)) {
 	        System.out.println("Server connected!");
